@@ -1,6 +1,8 @@
 from keras.layers import BatchNormalization
 from keras.models import load_model
 from keras.utils import img_to_array, load_img
+import numpy as np
+
 model_path = "my_model.h5"
 
 # Loading the trained model
