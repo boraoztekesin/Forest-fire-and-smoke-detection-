@@ -85,7 +85,7 @@ def test_and_visualize_model(model, test_folder, output_folder):
     plt.show()
 
 
-# Modeli eğit ve değerlendir
+# Train and evaluate model
 model, H = train_and_evaluate_model(train_data, val_data)
 
 plt.figure(figsize=(12, 4))
@@ -103,5 +103,5 @@ plt.legend()
 
 plt.show()
 
-# Modeli test et ve sonuçları görselleştir
+# Test and visualize model
 test_and_visualize_model(model, test_folder, output_folder)
