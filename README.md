@@ -23,15 +23,15 @@ These libraries can be installed via pip:
 ```bash
 pip install tensorflow keras sklearn seaborn numpy matplotlib os
 
-## Usage
+Usage
 To start the training process, run the main.py file:
 
-### python main.py
+python main.py
 
 This will train the model, evaluate it on the validation set, and test it with images from the test set. It also generates a series of output images showing the predicted label over each test image.
 
 To predict the label of an image, run the predict_image.py file:
 
-### python predict_image.py
+python predict_image.py
 
 This will load the trained model and make a prediction on the specified image.
