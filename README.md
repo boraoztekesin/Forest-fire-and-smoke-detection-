@@ -1,5 +1,4 @@
 # Forest Fire Detection
-Forest fire detection
 This project trains a Convolutional Neural Network (CNN) model using Keras and TensorFlow to classify images of forest fires and smoke.
 
 Training of the model is performed using a custom classification layer added on top of the MobileNetV2 skeleton model. Training and validation data is housed in the 'dataset_forest' directory and preprocessed and augmented with ImageDataGenerator.
